@@ -1,0 +1,34 @@
+@import "../_snowpack/pkg/tailwindcss/dist/base.css";
+@import "../_snowpack/pkg/tailwindcss/dist/components.css";
+@import "../_snowpack/pkg/tailwindcss/dist/utilities.css";
+
+#app {
+    background-color: rgba(249, 249, 249, 0.685);
+    border-radius: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));;
+}
+
+#app > div {
+    background-color: rgba(189, 235, 209, 0.924);
+    border: 1px solid green;
+    border-radius: 20px;
+    overflow: hidden;
+    margin: 1.5em;
+    box-shadow: 7px 6px 26px -9px rgba(0,0,0,0.71);
+    -webkit-box-shadow: 7px 6px 26px -9px rgba(0,0,0,0.71);
+    -moz-box-shadow: 7px 6px 26px -9px rgba(0,0,0,0.71);}
+
+#app > div > img {
+    width: 100%
+}
+
+#app > div > h2 {
+    display: block;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+#app > div > div {
+    font-size: 1rem;
+}
