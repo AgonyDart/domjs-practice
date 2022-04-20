@@ -1,3 +1,38 @@
+* {
+    box-sizing: border-box; 
+}
+
+html {
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.main-title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.p {
+    margin: 2em 0 .5em;
+    text-transform: uppercase;
+    font-weight: 900;
+    color:rgb(21, 34, 217);
+}
+
+.h3 {
+    margin: 0;
+    font-size: 3.2rem;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(32, 31, 33);
+}
+
+.p2 {
+    color:rgb(155, 156, 157);
+}
+
 #app {
     background-color: rgba(249, 249, 249, 0.685);
     border-radius: 20px;
@@ -21,10 +56,14 @@
 
 #app > div > h2 {
     display: block;
-    font-size: 1.2rem;
-    font-weight: 500;
+    font-size: 1.8rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 0;
 }
 
 #app > div > div {
-    font-size: 1rem;
+    font-size: 1.4rem;
+    text-align: center;
+    padding: .4em;
 }
